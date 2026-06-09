@@ -196,7 +196,26 @@ When evaluating model performance, both XGBoost and stacking demonstrate high ac
 
 <img width="459" height="811" alt="Screenshot 2026-06-09 at 4 36 12 PM" src="https://github.com/user-attachments/assets/f02b5c93-5517-4624-813d-6c091b30daf6" />
 
-<img width="905" height="977" alt="Screenshot 2026-06-09 at 4 37 00 PM" src="https://github.com/user-attachments/assets/7866adf9-bb36-4e87-b94e-5302db91769f" />
+<img width="910" height="815" alt="Screenshot 2026-06-09 at 4 38 05 PM" src="https://github.com/user-attachments/assets/6f60a595-c12d-48fb-8538-30bc6c7c1451" />
+
+<img width="895" height="299" alt="Screenshot 2026-06-09 at 4 38 30 PM" src="https://github.com/user-attachments/assets/ebd206c1-09e7-4f2d-a46f-02b4ca97f8c9" />
+
+                                                      Conclusion
+The XGBoost model performs well with high accuracy, precision, recall, and F1-score. It effectively distinguishes between fraudulent and non-fraudulent transactions, especially with a high true positive rate and a low false positive rate.
+
+Next Steps to Improve Prediction
+Feature Engineering:
+Identify and create new features that might better capture the nuances of fraudulent transactions.
+Use domain knowledge to add or modify features.
+Hyperparameter Tuning:
+Experiment with different hyperparameters of the XGBoost model to find an optimal set that improves performance.
+Techniques like Grid Search or Random Search can be helpful.
+
+Algorithm Tuning:
+Experiment with Different Algorithms: Try other powerful algorithms like CatBoost or Neural Networks.
+Parameter Tuning in XGBoost: Continue to tune parameters such as learning_rate, max_depth, min_child_weight, gamma, subsample, and colsample_bytree.
+
+
 
 
 
